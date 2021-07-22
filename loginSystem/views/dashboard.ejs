@@ -1,0 +1,14 @@
+
+
+<%- include('header') -%>
+<div id="login"  class="text-center center-div mt-5">
+    <div class="container w-25 border py-5 mt-5">
+        <h3>Welcome to MY Portfolio website</h3>
+        <h5><%= locals.user ? user :"User"%></h5>
+        <a href="/route/logout" class="logout-btn">Logout</a>
+    </div>
+</div>
+
+
+
+<%- include('footer') -%>
